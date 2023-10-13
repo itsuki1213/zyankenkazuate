@@ -9,6 +9,9 @@ void janken::Game()
 	while (jGame)
 	{
 		NPC = rand() % 3 + 1;
+#if 1
+		cout << NPC << endl;
+#endif
 		cout << "‚®[ ... 1 || ‚¿‚å‚« ... 2 || ‚Ï[ ... 3" << endl;
 		cin >> player;
 		if (player == 1 && NPC == 2) Pwin();

@@ -6,6 +6,9 @@ void kazuate::Game()
 {
 	cout << "ƒ”“–‚ÄƒQ[ƒ€„" << endl;
 	answer = rand() % 10 + 1;
+#if 1
+	cout << answer << endl;
+#endif
 	while (true)
 	{
 		cout << "‚P`‚P‚O‚Ì”Žš‚ð‘I‚ñ‚Å‚Ë > " << flush;
